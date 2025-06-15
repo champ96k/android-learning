@@ -11,19 +11,27 @@ open class BaseClass {
     }
 }
 
-
 open class SecondClass:BaseClass() {
      fun myRole(name:String) {
         println("This is second class role! $name")
     }
-
-    override fun role(number: Int) {
-        super.role(number)
-        println("This is second class role! - $number")
-    }
 }
 
 class ThirdClass:SecondClass() {
+
+}
+
+class Offspring:SecondClass(),Archery,Singer  {
+
+    override fun archery() {
+        super.archery()
+        println("Enhanced archery")
+    }
+
+    override fun sing() {
+        super.sing()
+        println("Enhanced sing")
+    }
 
 }
 
@@ -38,5 +46,12 @@ fun  main() {
 
     val obj3 = ThirdClass();
     obj3.role(2);
+
+    val obj4 = Offspring()
+    obj4.archery()
+    obj4.sing()
+    obj4.role(3)
+    obj4.coreValue()
+    obj4.myRole("John")
 
 }
