@@ -9,18 +9,12 @@ This repository contains a collection of simple Android applications built while
 A minimal counter application using Jetpack Compose and MVVM architecture.  
 Features increment and decrement buttons with state management via a ViewModel.
 
-**Screenshot:**  
-![CounterApp Screenshot](counter.png)
-
 ---
 
 ### 2. GymWorkoutX
 
 A fitness dashboard app UI built with Jetpack Compose.  
 It showcases a daily challenge card, today's stats, and recent activity sections, focusing on layout and theming.
-
-**Screenshot:**  
-![GymWorkoutX Screenshot](gymWorkoutX.png)
 
 ---
 
