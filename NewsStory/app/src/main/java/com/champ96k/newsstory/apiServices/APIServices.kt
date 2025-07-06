@@ -12,7 +12,7 @@ val newsResponse = retrofit.create(APIServices::class.java)
 
 interface APIServices {
 
-    @GET("everything?q=nashik&apiKey=ba8a666d9c564a6284ecc8c224d90a0c")
+    @GET("everything?q=india&apiKey=ba8a666d9c564a6284ecc8c224d90a0c")
     suspend fun getNewsFromServer(): NewsResponse
 
 }
