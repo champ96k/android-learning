@@ -36,9 +36,9 @@ It includes theming, custom cards, and a responsive feed layout.
 
 ## Screenshots
 
-|         CounterApp         |           GymWorkoutX           |
-| :------------------------: | :-----------------------------: |
-| ![CounterApp](counter.png) | ![GymWorkoutX](gymWorkoutX.png) |
+|         CounterApp         |           GymWorkoutX           |           Newx           |
+| :------------------------: | :-----------------------------: | :-----------------------------: |
+| ![CounterApp](counter.png) | ![GymWorkoutX](gymWorkoutX.png) | ![NewsX](newsX.png) |
 
 ---
 
